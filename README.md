@@ -1,5 +1,5 @@
 # Machine Learning Final Project
-**Nathan Gibson, Cody Hornberger, Taeho Kim**
+**By: Nathan Gibson, Cody Hornberger, Taeho Kim**
 
 ### Paper Summary ###
 

@@ -39,11 +39,6 @@ Nationality status and age had similar outcomes. Directions based on these class
 
 We suspect that such huge disparity between gender based bias in word embeddings and biases based on other classifications is largely due to how everyday language works. Gender is more ingrained into our language, English,  as nouns and pronouns, whereas socioeconomic status, race, nationality, and age are not. Words that are related to gender or hold meaning based on gender are used even when the conversation isn't about gender. However, words that convey or mean socioeconomic status, nationality status, or age are often only used when talking about those subjects. Therefore, we believe that biases based on our chosen classifications are less prevalent in word embeddings. If words related to these classification are used less often, then it would be much more difficult to find biases in word embeddings.
 
-| | Gender | Socioeconomic Status | Nationality Status | Age
-| --- | --- | --- | --- | --- |
-| Before | 0 | 0 | 0 | 0 |
-| After | 0 | 0 | 0 | 0 |
-
 All analogies produced and mentioned in this section can be found in additional_bias.ipynb notebook.
 
 ### References ###

@@ -24,6 +24,9 @@ The debias.py file includes code to conduct the debiasing. It also took analogy 
 
 Finally, we attempted to reproduce the procedure from the paper with a different embedding. We observed that the original word embedding was heavily filtered and we suspected that the given results might be specific to that dataset. We found a word embedding built from Wikipedia data that was in a compatible format. The Wikipedia word embedding was approximately 1 GB, compared to 80 MB from the original embedding. We were able to run the gender-related code with all the same inputs other than the embedding and analyzed the results.
 
+### Code ###
+Our code is contained in the additional_bias.ipynb notebook. The Wikipedia dataset is not included on the repo because its large size.
+
 ### Analysis ###
 
 After reproducing the procedure from the paper with a different Wikipedia dataset, we found that the results were much less profound. Most of the generated analogy pairs did not make sense and many contained numbers and indiscernible words. We did, however, find a few stereotypical pairs similar to those found in the paper, such as physician-nurse, football-volleyball, and feminism-nationalism. The debiasing results were similarly uneventful. It may be the case that news articles contain more biased language than Wikipedia. It would be an interesting future study to look into this further. If we had more time, we would have liked to experiment with additional filtering of the different dataset and test more datasets. However, we concluded from our initial efforts that the procedure outlined in the paper may be sensitive to the dataset used and the profound findings may not be as prevelant in other embeddings.

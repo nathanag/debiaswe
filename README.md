@@ -14,7 +14,9 @@ The researchers shared a preliminary example of how to apply their code to analy
 We instead created three seed sets of analogy pairs related to nationality status, socioeconomic status, and age and attempted to analyze it in a similar manner to how gender was done. The most descriptive analogy pairs for each are international-national, rich-poor, and old-young, respectively. These were chosen because we could think of the most similar binary analogies for them to give as seed sets to the algorithm. The chosen analogy pairs are shown below.
 
 **Nationality Status:** national-international, citizen-immigrant, citizenship-visa, native-alien, domestic-foreign
+
 **Socioeconomic Status:** rich-poor, wealthy-impoverished, wealth-poverty
+
 **Age:** old-young, parent-child, elderly-youth, past-future, old-new, death-birth
 
 The seed pairs are used to determine an initial direction to distinguish between the two groups. The code uses linear algebra and Principal Component algorithms to find associations in the word embeddings and return additional analogy pairs. We inputted our seed pairs and ran the code for each of the three categories and analyzed the results.
